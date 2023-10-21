@@ -1,0 +1,245 @@
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+
+/*-----------------HEADER----------------*/
+.page-header{
+    border-bottom: 1px solid #e7e9fc
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+}
+.page-nav{
+    display: flex;
+    flex-direction: row;
+        align-items: right;
+        width: 100%;
+}
+.menu-list{
+    display: flex;
+    gap: 40px;
+}
+.menu-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.logo {
+    margin-right: 76px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+ .logo-header{
+    color: #2e2f42; 
+ }
+ .menu-link{
+   
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+    color: #2E2F42
+ }
+ .menu-link:hover{
+    color: #404bbf;
+ }
+ .menu-link:focus{
+    color: #404bbf
+ }
+ 
+ /*-----------------HEADER----------------*/
+
+ /*-----------------ADRESS----------------*/
+ .menu-adress{
+    font-style: normal
+ }
+ .adress-link{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: #434455;
+ }
+ .adress-link:hover{
+    color: #404bbf;
+ }
+ .adress-link:focus {
+color: #404bbf;
+ }
+ /*-----------------ADRESS----------------*/
+
+ /*-----------------HERO----------------*/
+ 
+ .hero-page{
+    background:#2E2F42;
+ }
+.hero-text{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #2E2F42; 
+  }
+.hero-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.hero-button:hover,
+.hero-button:focus{
+background-color: #404BBF
+}
+
+.feature{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.feature-text{ 
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*-----------------HERO----------------*/
+
+/*-----------------TEAM----------------*/
+.team{
+    background-color: #F4F4FD;
+}
+.page-team{
+   
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.team-list{
+    background-color: #FFFFFF;
+
+}
+.name-team{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.prof-team{
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*-----------------TEAM----------------*/
+
+/*-----------------PORTFOLIO----------------*/
+
+.page-portfolio{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.text-portfol{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.head-portfol{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/*-----------------PORTFOLIO----------------*/
+
+/*-----------------FOOTER----------------*/
+
+.bottom-page{
+    background-color: #2E2F42;
+}
+.bottom-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.logo-footer{
+    color: #f4f4fd
+}
