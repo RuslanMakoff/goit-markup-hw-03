@@ -277,10 +277,10 @@ background-color: #404BBF
 }
 
 .pfoto-list{
-    row-gap: 48px;
-    flex-wrap: wrap;
-    column-gap: 24px;
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
     gap:24px;
 }
 
