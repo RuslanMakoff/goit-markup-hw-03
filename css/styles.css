@@ -7,6 +7,12 @@
     text-decoration: none;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
 button {
     cursor: pointer;
 }
@@ -26,6 +32,14 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.features,
+.team,
+.project{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
     max-width: 1158px;
     align-items: center;
@@ -49,11 +63,7 @@ img {
     overflow: hidden;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
+
 
 
 /*-----------------HEADER----------------*/
@@ -178,13 +188,28 @@ color: #404bbf;
 background-color: #404BBF
 }
 
+/*-----------------HERO----------------*/
+
+
+/*-----------------FEATURES----------------*/
+
+.main-feature{
+    display: flex;
+    gap: 24px;
+}
+.feature-list{
+    width: calc(100% - 72px) / 4;
+}
+
 .feature{
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
 .feature-text{ 
     font-size: 16px;
     font-style: normal;
@@ -193,9 +218,10 @@ background-color: #404BBF
     color: #434455;
 }
 
-/*-----------------HERO----------------*/
+
 
 /*-----------------TEAM----------------*/
+
 .team{
     background-color: #F4F4FD;
 }
