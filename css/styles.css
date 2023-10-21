@@ -177,12 +177,22 @@ color: #404bbf;
 
  /*-----------------HERO----------------*/
  
- .hero-page{padding-top: 188px;
+ .hero-page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 188px;
     padding-bottom: 188px;
     background:#2E2F42;
  }
+ .hero-container{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+ }
 .hero-text{
     max-width: 496px;
+    margin-bottom: 48px;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -193,6 +203,7 @@ color: #404bbf;
   }
 .hero-button{
     display: block;
+    text-align: center;
     min-width: 169px;
     height: 56px;
     border: none;
