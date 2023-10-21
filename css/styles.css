@@ -28,6 +28,7 @@ img {
 }
 .container {
     max-width: 1158px;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -65,17 +66,22 @@ body {
 }
 .page-nav{
     display: flex;
-    flex-direction: row;
-        align-items: right;
+    align-items: center;
         width: 100%;
 }
-.menu-list{
+.menu{
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 .menu-item{
+    
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.adress-list{
+    display: flex;
+    gap: 40px;
 }
 .logo {
     margin-right: 76px;
