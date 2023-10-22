@@ -84,7 +84,8 @@ img {
 
 .head-container{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    flex-grow: 1;
 }
 
 .logo {
@@ -105,12 +106,15 @@ img {
 .page-nav{
     display: flex;
     align-items: center;
-        width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+        width: 462px;
 }
 
 .menu{
     display: flex;
     align-items: center;
+    
     gap: 40px;
 }
 
@@ -149,6 +153,7 @@ img {
 
  .adress-list {
     display: flex;
+    text-align: left;
      gap: 40px;
  }
  .adress-text{
